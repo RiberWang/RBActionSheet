@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+
     [self createUI];
 }
 
@@ -45,6 +45,7 @@
     [button addTarget:self action:@selector(sheetBgViewShow:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
+    
     _sheetBgView = [[UIView alloc] initWithFrame:CGRectMake(0, kSCREENH, kSCREENW, kSCREENH)];
     [self.view addSubview:_sheetBgView];
     
@@ -53,8 +54,8 @@
     [_sheetBgView addGestureRecognizer:tap];
     
     NSArray *sheetArray = @[@{RBImageName:@"takephoto", RBTitle:@"拍摄"}, @{RBImageName:@"photolibrary", RBTitle:@"相册"}, @{RBImageName:@"", RBTitle:@"取消"}];
+
     _actionSheetView = [[RBActionSheetView alloc] initWithFrame:CGRectMake(10, self.view.frame.size.height - (sheetArray.count*44+5+sheetArray.count-1)-10, self.view.bounds.size.width-2*10, sheetArray.count*44+5+sheetArray.count-1) andDataArray:sheetArray];
-    
     __weak typeof(RBActionSheetView *) weakActionSheetView = _actionSheetView;
     weakActionSheetView.sheetButtonClickBlock = ^(UIButton *sheetButton) {
         

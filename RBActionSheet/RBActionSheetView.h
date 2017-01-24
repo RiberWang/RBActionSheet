@@ -13,11 +13,22 @@
 
 typedef void(^SheetButtonClickBlock)();
 
+/**
+ * This class is suit to ActionSheet
+ * support add image or title
+ */
+
 @interface RBActionSheetView : UIView
 
 @property (nonatomic, strong) NSArray *dataArray;
 @property (nonatomic, copy) SheetButtonClickBlock sheetButtonClickBlock;
 
+/*!
+ * init method \n
+ * dataArray is must exist \n
+ * dataArray format:
+ * @[@{RBImageName:@"takephoto", RBTitle:@"拍摄"}, @{RBImageName:@"photolibrary", RBTitle:@"相册"}, @{RBImageName:@"", RBTitle:@"取消"}];
+ */
 - (instancetype)initWithFrame:(CGRect)frame andDataArray:(NSArray *)dataArray;
 
 @end
