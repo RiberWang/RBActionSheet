@@ -21,7 +21,7 @@ typedef void(^SheetButtonClickBlock)();
 @interface RBActionSheetView : UIView
 
 @property (nonatomic, strong) NSArray *dataArray;
-@property (nonatomic, copy) SheetButtonClickBlock sheetButtonClickBlock;
+@property (nonatomic, copy) SheetButtonClickBlock sheetButtonClickBlock; /**< buttonclickblock tag = 0 */
 
 /*!
  * init method \n
