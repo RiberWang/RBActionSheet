@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077D0B221E30A77B009AAA09 /* RBActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B1F1E30A77B009AAA09 /* RBActionSheetView.m */; };
-		077D0B231E30A77B009AAA09 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B211E30A77B009AAA09 /* UIView+Extension.m */; };
+		0758A9CC1EA7109A00B2753A /* RBActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9CB1EA7109A00B2753A /* RBActionSheetView.m */; };
+		0758A9CF1EA710C600B2753A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9CE1EA710C600B2753A /* UIView+Extension.m */; };
 		077D0B2A1E30A7C3009AAA09 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B261E30A7C3009AAA09 /* MBProgressHUD+NJ.m */; };
 		077D0B2B1E30A7C3009AAA09 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 077D0B271E30A7C3009AAA09 /* MBProgressHUD.bundle */; };
 		077D0B2C1E30A7C3009AAA09 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B291E30A7C3009AAA09 /* MBProgressHUD.m */; };
@@ -40,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077D0B1E1E30A77B009AAA09 /* RBActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBActionSheetView.h; sourceTree = "<group>"; };
-		077D0B1F1E30A77B009AAA09 /* RBActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBActionSheetView.m; sourceTree = "<group>"; };
-		077D0B201E30A77B009AAA09 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		077D0B211E30A77B009AAA09 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0758A9CA1EA7109A00B2753A /* RBActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBActionSheetView.h; sourceTree = "<group>"; };
+		0758A9CB1EA7109A00B2753A /* RBActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBActionSheetView.m; sourceTree = "<group>"; };
+		0758A9CD1EA710C600B2753A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0758A9CE1EA710C600B2753A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		077D0B251E30A7C3009AAA09 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
 		077D0B261E30A7C3009AAA09 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		077D0B271E30A7C3009AAA09 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -92,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0758A9C91EA7109A00B2753A /* RBActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				0758A9CD1EA710C600B2753A /* UIView+Extension.h */,
+				0758A9CE1EA710C600B2753A /* UIView+Extension.m */,
+				0758A9CA1EA7109A00B2753A /* RBActionSheetView.h */,
+				0758A9CB1EA7109A00B2753A /* RBActionSheetView.m */,
+			);
+			path = RBActionSheetView;
+			sourceTree = "<group>";
+		};
 		077D0B241E30A7C3009AAA09 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,15 +138,12 @@
 		07937C001E306C24004DC9D4 /* RBActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				0758A9C91EA7109A00B2753A /* RBActionSheetView */,
 				077D0B241E30A7C3009AAA09 /* MBProgressHUD */,
 				07937C041E306C24004DC9D4 /* AppDelegate.h */,
 				07937C051E306C24004DC9D4 /* AppDelegate.m */,
 				07937C071E306C24004DC9D4 /* ViewController.h */,
 				07937C081E306C24004DC9D4 /* ViewController.m */,
-				077D0B1E1E30A77B009AAA09 /* RBActionSheetView.h */,
-				077D0B1F1E30A77B009AAA09 /* RBActionSheetView.m */,
-				077D0B201E30A77B009AAA09 /* UIView+Extension.h */,
-				077D0B211E30A77B009AAA09 /* UIView+Extension.m */,
 				07937C0A1E306C24004DC9D4 /* Main.storyboard */,
 				07937C0D1E306C24004DC9D4 /* Assets.xcassets */,
 				07937C0F1E306C24004DC9D4 /* LaunchScreen.storyboard */,
@@ -306,11 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				077D0B231E30A77B009AAA09 /* UIView+Extension.m in Sources */,
 				077D0B2A1E30A7C3009AAA09 /* MBProgressHUD+NJ.m in Sources */,
-				077D0B221E30A77B009AAA09 /* RBActionSheetView.m in Sources */,
 				07937C091E306C24004DC9D4 /* ViewController.m in Sources */,
 				07937C061E306C24004DC9D4 /* AppDelegate.m in Sources */,
+				0758A9CF1EA710C600B2753A /* UIView+Extension.m in Sources */,
+				0758A9CC1EA7109A00B2753A /* RBActionSheetView.m in Sources */,
 				07937C031E306C24004DC9D4 /* main.m in Sources */,
 				077D0B2C1E30A7C3009AAA09 /* MBProgressHUD.m in Sources */,
 			);
