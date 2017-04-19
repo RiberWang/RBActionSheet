@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RBActionSheet"
-  s.version      = “1.0.0”
-  s.summary      = "高仿系统ActionSheet 支持图片添加"
-  s.platform     = :ios, “8.0”
-  s.source_files  = “RBActionSheetView”, "RBActionSheetView/**/*.{h,m}"
+  s.version      = "1.0.0"
+  s.summary      = "高仿系统ActionSheet"
+  s.platform     = :ios, "8.0"
+  s.source_files  = "RBActionSheetView", "RBActionSheetView/**/*.{h,m}"
   s.framework  = "UIKit"
-  s.dependency "MBProgressHUD", "~> 1.0.0"
-  
+  s.dependency "MBProgressHUD", "~> 1.0.0"
+
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,10 +30,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+	高仿系统ActionSheet 支持图片添加
                    DESC
 
   s.homepage     = "https://github.com/RiberWang/RBActionSheet"
-  s.screenshots  = "https://github.com/RiberWang/RBActionSheet/blob/master/ScreenShot/actionSheet.png"
+  #  	s.screenshots  = "https://github.com/RiberWang/RBActionSheet/blob/master/ScreenShot/actionSheet.png"
   #	s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
