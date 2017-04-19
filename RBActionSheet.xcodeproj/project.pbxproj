@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0758A9CC1EA7109A00B2753A /* RBActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9CB1EA7109A00B2753A /* RBActionSheetView.m */; };
 		0758A9CF1EA710C600B2753A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0758A9CE1EA710C600B2753A /* UIView+Extension.m */; };
+		0758A9D21EA758EA00B2753A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0758A9D11EA758EA00B2753A /* UIKit.framework */; };
 		077D0B2A1E30A7C3009AAA09 /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B261E30A7C3009AAA09 /* MBProgressHUD+NJ.m */; };
 		077D0B2B1E30A7C3009AAA09 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 077D0B271E30A7C3009AAA09 /* MBProgressHUD.bundle */; };
 		077D0B2C1E30A7C3009AAA09 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 077D0B291E30A7C3009AAA09 /* MBProgressHUD.m */; };
@@ -44,6 +45,7 @@
 		0758A9CB1EA7109A00B2753A /* RBActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBActionSheetView.m; sourceTree = "<group>"; };
 		0758A9CD1EA710C600B2753A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		0758A9CE1EA710C600B2753A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0758A9D11EA758EA00B2753A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		077D0B251E30A7C3009AAA09 /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
 		077D0B261E30A7C3009AAA09 /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		077D0B271E30A7C3009AAA09 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0758A9D21EA758EA00B2753A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,14 @@
 			path = RBActionSheetView;
 			sourceTree = "<group>";
 		};
+		0758A9D01EA758EA00B2753A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0758A9D11EA758EA00B2753A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		077D0B241E30A7C3009AAA09 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +133,7 @@
 				07937C1A1E306C24004DC9D4 /* RBActionSheetTests */,
 				07937C251E306C24004DC9D4 /* RBActionSheetUITests */,
 				07937BFF1E306C24004DC9D4 /* Products */,
+				0758A9D01EA758EA00B2753A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "RBActionSheetView.h"
 #import "UIView+Extension.h"
-#import "MBProgressHUD+NJ.h"
 
 #define kSCREENW [UIScreen mainScreen].bounds.size.width
 #define kSCREENH [UIScreen mainScreen].bounds.size.height
@@ -62,17 +61,17 @@
         [self sheetBgViewHide];
         
         if (sheetButton.tag == 0) {
-            [MBProgressHUD showSuccess:@"拍照"];
+
             
         }
         else if (sheetButton.tag == 1)
         {
-            [MBProgressHUD showSuccess:@"相册"];
+
             
         }
         else
         {
-            [MBProgressHUD showSuccess:@"取消操作"];
+
         }
     };
     [_sheetBgView addSubview:_actionSheetView];
