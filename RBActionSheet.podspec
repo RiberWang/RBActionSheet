@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "高仿系统ActionSheet"
   s.platform     = :ios, "8.0"
-  s.source_files  = "RBActionSheet", "RBActionSheet/**/*.{h,m}"
+  s.source_files  = "RBActionSheetView", "RBActionSheetView/**/*.{h,m}"
   s.framework  = "UIKit"
 
 
